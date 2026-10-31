@@ -33,14 +33,20 @@ public class Main{
 
     switch(operator){
         case "+":
+            break;
         case "-":
+            break;
         case "*":
+            break;
         case "/":
+            break;
         case "^":
+            break;
         case "%":
             break;
         default:
             System.out.println("Error: Invalid operator");
+            continue;
     }
 
     if (operator.equals("%")){
